@@ -1,0 +1,20 @@
+.title-bg h1 {
+  display: flex;
+  font-size: 25px;
+  color: #3a3a94;
+  padding: 0 15px;
+  justify-content: center;
+  align-items: center;
+}
+.title-bg h3 {
+  font-size: 35px;
+  color: #35356d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title-bg {
+  /* background-color: #000; */
+  /* color: #fff; */
+  padding: 20px 0;
+}

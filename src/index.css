@@ -9,7 +9,6 @@
 }
 
 .btn {
-  background: #fff;
   color: #212121;
   border-radius: 30px;
   padding: 10px 15px;
@@ -20,14 +19,12 @@
   justify-content: center;
   display: inline-flex;
   align-items: center;
-  transition: background 0.3s, color 0.3s;
+  transition: 0.5s;
 }
 .btn:hover {
-  background: #212121;
-  color: #fff;
   animation: pulse 0.5s infinite alternate;
 }
-.btn img {
+.btn > img {
   width: 20px;
   margin-left: 10px;
 }
@@ -38,4 +35,8 @@
   100% {
     transform: scale(1.1);
   }
+}
+.btn-primary {
+  background: #212ea0;
+  color: #fff;
 }

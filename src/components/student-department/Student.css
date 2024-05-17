@@ -1,15 +1,3 @@
-/* .programs-row {
-  display: flex;
-  gap: 50px;
-}
-.programs-col {
-  width: 33%;
-}
-
-.img {
-  width: 100%;
-  border-radius: 10px;
-} */
 .programs {
   margin: 10px auto;
   width: 90%;
@@ -18,7 +6,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.program img {
+.program > img {
   width: 100%;
   border-radius: 10px;
   display: block;
@@ -44,12 +32,12 @@
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: rgba(0, 15, 152, 0.3);
+  background-color: #000f984d;
   padding-top: 70%;
   transition: 0.5s;
 }
 
-.caption img {
+.caption > img {
   width: 60px;
   margin-bottom: 10px;
 }

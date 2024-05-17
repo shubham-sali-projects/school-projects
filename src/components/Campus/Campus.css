@@ -1,0 +1,21 @@
+.campus {
+  margin: 50px auto;
+  width: 90%;
+  text-align: center;
+}
+
+.campus-gallery {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.campus-gallery > img {
+  width: 23%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.campus-gallery > img:hover {
+  transform: scale(1.1);
+}

@@ -2,7 +2,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: #333; */
   width: 100%;
   padding: 4px 0;
   position: fixed;
@@ -11,13 +10,12 @@ nav {
   z-index: 10;
 }
 
-ul {
+nav > ul {
   display: flex;
   list-style: none;
-  /* padding: 10px 15px; */
   align-items: center;
 }
-li {
+nav > ul > li {
   margin: 5px 20px;
   font-size: 16px;
   color: #fff;
@@ -26,4 +24,18 @@ li {
 }
 .logo {
   width: 180px;
+}
+
+nav > ul > li:hover {
+  color: #000;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.dark-nav {
+  background-color: #35356d;
+  color: #fff;
+  transition: 0.5s;
 }
